@@ -1,8 +1,7 @@
 
 # 115VideoTutor
 
-This tutorial demonstrates how to seamlessly stream videos hosted on 115.com using a combination of cdn2, alist, Emby, Nginx, and auto_symlink. Learn how to set up a 302 redirect system that allows you to access your 115 videos through a user-friendly interface, bypassing any potential limitations or complexities of direct playback.
-
+本教程演示如何使用 cdn2、alist、Emby、Nginx 和 auto_symlink 组合，无缝播放存储在 115.com 上的视频。学习如何设置一个 302 重定向系统，让你可以通过用户友好的界面访问你的 115 视频，绕过直接播放可能遇到的限制或复杂性。
 
 ## FAQ
 
