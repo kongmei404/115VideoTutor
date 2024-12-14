@@ -18,28 +18,14 @@ emby读取路径为 /home/strm
 
 #### Ubuntu
 
-更新软件源
+
 ```bash
 apt update
-```
-
-安装docker
-```bash
 apt install docker.io
-```
-安装docker-compose
-```bash
 apt install docker-compose
-```
-在root目录下创建docker-compose.yaml
-```bash
 cd /root
-vi docker-compose.yaml //然后将下方的合集安装内容粘贴保存
-```
-
-合集安装
-
-```bash
+vi docker-compose.yaml
+//将下文合集安装内容复制粘贴
 docker-compose up -d
 ```
 ## 合集安装
