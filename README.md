@@ -3,6 +3,46 @@
 
 This tutorial demonstrates how to seamlessly stream videos hosted on 115.com using a combination of cdn2, alist, Emby, Nginx, and auto_symlink. Learn how to set up a 302 redirect system that allows you to access your 115 videos through a user-friendly interface, bypassing any potential limitations or complexities of direct playback.
 
+
+## FAQ
+
+### 配置要求
+
+1C2G,建议使用Ubuntu
+
+### 路径
+cd2挂载路径为 /home/media
+
+emby读取路径为 /home/strm
+
+### 如何安装
+
+#### Ubuntu
+
+更新软件源
+```bash
+apt update
+```
+
+安装docker
+```bash
+apt install docker.io
+```
+安装docker-compose
+```bash
+apt install docker-compose
+```
+在root目录下创建docker-compose.yaml
+```bash
+cd /root
+vi docker-compose.yaml //然后将下方的合集安装内容粘贴保存
+```
+
+合集安装
+
+```bash
+docker-compose up -d
+```
 ## 合集安装
 
 ```bash
