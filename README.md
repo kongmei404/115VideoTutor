@@ -80,7 +80,7 @@ services:
     volumes:
       - /home/strm:/strm
       - /home/media:/home/media:rslave
-      - root/emby/config:/config
+      - /root/emby/config:/config
 
 ```
 
