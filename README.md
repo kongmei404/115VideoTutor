@@ -33,7 +33,7 @@ docker-compose up -d
 #### Medialinker
 
 ```bash
-//进入目录/root/Medialinker/opt 修改constant.js
+//进入目录/root/mediaLinker/opt 修改constant.js
 //填写对应的
 embyHost embyApiKey embyApiKey alistToken alistPublicAddr
 const alistSignEnable = true;//关键！！！如果你的alist开启了签名，则需要为true 未开则反之
