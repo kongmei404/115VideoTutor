@@ -28,6 +28,18 @@ vi docker-compose.yaml
 //将下文合集安装内容复制粘贴
 docker-compose up -d
 ```
+### 如何配置
+
+#### Medialinker
+
+```bash
+//填写对应的
+embyHost embyApiKey embyApiKey alistToken alistPublicAddr
+const alistSignEnable = true;//关键！！！如果你的alist开启了签名，则需要为true 未开则反之
+const mediaPathMapping = [ [0, 1, "/home/media", ""] ……]//关键 如果的完全按照我的配置，则直接抄写这个配置
+
+```
+
 ## 合集安装
 
 ```bash
